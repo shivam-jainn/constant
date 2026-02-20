@@ -1,7 +1,7 @@
 package handlers
 
-import "net/http"
+import "github.com/gofiber/fiber/v3"
 
-func HealthyHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Healthy"))
+func HealthyHandler(c fiber.Ctx) error {
+	return c.SendString("Healthy")
 }

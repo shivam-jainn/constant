@@ -1,0 +1,7 @@
+### Place order - valid request
+POST http://localhost:3000/api/v1/order/place
+Content-Type: application/json
+
+{
+	"quantity": 3
+}
