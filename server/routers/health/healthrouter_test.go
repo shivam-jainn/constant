@@ -11,7 +11,6 @@ import (
 func TestHealthEndpoint(t *testing.T) {
 	app := fiber.New()
 	api := app.Group("/api")
-	v1 := api.Group("/v1")
 	health.HealthRouterHandler(api)
 
 	req := httptest.NewRequest("GET", "/api/health/", nil)
