@@ -2,7 +2,7 @@ package orders
 
 import (
 	"github.com/gofiber/fiber/v3"
-	"github.com/shivam-jainn/constant/server/handlers"
+	"github.com/shivam-jainn/constant/internal/handlers"
 )
 
 func OrderRouterHandler(apiGroup fiber.Router) {

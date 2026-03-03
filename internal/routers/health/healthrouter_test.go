@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/gofiber/fiber/v3"
-	health "github.com/shivam-jainn/constant/server/routers/health"
+	health "github.com/shivam-jainn/constant/internal/routers/health"
 )
 
 func TestHealthEndpoint(t *testing.T) {

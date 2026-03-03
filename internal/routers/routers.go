@@ -2,8 +2,8 @@ package routers
 
 import (
 	"github.com/gofiber/fiber/v3"
-	health "github.com/shivam-jainn/constant/server/routers/health"
-	orders "github.com/shivam-jainn/constant/server/routers/orders"
+	health "github.com/shivam-jainn/constant/internal/routers/health"
+	orders "github.com/shivam-jainn/constant/internal/routers/orders"
 )
 
 func RegisterRouters(app *fiber.App) {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v3"
-	"github.com/shivam-jainn/constant/server/routers"
+	"github.com/shivam-jainn/constant/internal/routers"
 )
 
 func main() {

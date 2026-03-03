@@ -2,7 +2,7 @@ package health
 
 import (
 	"github.com/gofiber/fiber/v3"
-	"github.com/shivam-jainn/constant/server/handlers"
+	"github.com/shivam-jainn/constant/internal/handlers"
 )
 
 func HealthRouterHandler(apiGroup fiber.Router) {
